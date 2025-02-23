@@ -1,15 +1,17 @@
-# ROS 2 Signal Processing - CH1
+# ROS 2 Signal Processing - Challenge 1
 
-Este proyecto implementa un sistema de procesamiento de señales en **ROS 2**, compuesto por dos nodos principales:
-- **`signal_generator.py`**: Genera una onda senoidal y publica los valores en ROS 2.
-- **`process.py`**: Recibe la onda senoidal, le aplica transformaciones (desfase, ajuste de amplitud y desplazamiento), y publica la señal procesada.
+This project implements a **signal processing system in ROS 2**, consisting of two main nodes:
+- **`signal_generator.py`**: Generates a sinusoidal wave and publishes it in ROS 2.
+- **`process.py`**: Receives the sine wave, applies transformations (phase shift, amplitude scaling, and vertical offset), and republishes the processed signal.
 
-## 📌 Requisitos
-Este proyecto está desarrollado en **Ubuntu 22.04** con **ROS 2 Humble**. Antes de ejecutarlo, asegúrate de tener instalado:
+## 📌 Requirements
+This project was developed in **Ubuntu 22.04** using **ROS 2 Humble**. Before running it, make sure you have:
 - **Python 3**
 - **ROS 2 Humble**
-- **PlotJuggler (para visualizar señales)**
+- **PlotJuggler** (for real-time visualization)
 
-Instala `PlotJuggler` si aún no lo tienes:
+To install `PlotJuggler`, run:
 ```bash
 sudo apt install ros-humble-plotjuggler-ros
+
+## Results
