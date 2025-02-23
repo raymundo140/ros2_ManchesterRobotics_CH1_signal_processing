@@ -10,8 +10,4 @@ This project was developed in **Ubuntu 22.04** using **ROS 2 Humble**. Before ru
 - **ROS 2 Humble**
 - **PlotJuggler** (for real-time visualization)
 
-To install `PlotJuggler`, run:
-```bash
-sudo apt install ros-humble-plotjuggler-ros
-
 ## Results
