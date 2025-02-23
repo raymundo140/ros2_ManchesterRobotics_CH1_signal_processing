@@ -10,4 +10,3 @@ This project was developed in **Ubuntu 22.04** using **ROS 2 Humble**. Before ru
 - **ROS 2 Humble**
 - **PlotJuggler** (for real-time visualization)
 
-## Results
